@@ -17,11 +17,16 @@ if is_active {
 		var xx = (x-32)/32;
 		var yy = (y-32)/32;
 		var game_continue = checkOutputflow(xx,yy);
+		var game_win = checkIfWon(xx, yy)
+		
+		if (game_win){
+			obj_game.game_win = true;
+		}
 		
 		//else game over
 		if (!game_continue){
 			//throw game over
-			game_over = true;
+			obj_game.game_over = true;
 		}
 	}
 }

@@ -14,7 +14,7 @@ var yy = argument1;
 
 if (ds_list_find_index(output, DIRECTIONS.WEST) != -1) && xx > 0{
 	var nextTile = ds_grid_get(obj_game.gamefield, xx-1, yy);
-	if (ds_list_find_index(nextTile.input, DIRECTIONS.EAST) != -1){
+	if (nextTile != obj_game.FREE) && (ds_list_find_index(nextTile.input, DIRECTIONS.EAST) != -1){
 		
 		if (nextTile.object_index == obj_WE){
 			with (nextTile){
@@ -35,7 +35,7 @@ if (ds_list_find_index(output, DIRECTIONS.WEST) != -1) && xx > 0{
 
 if (ds_list_find_index(output, DIRECTIONS.EAST) != -1) && xx < (obj_game.gamefield_width - 1){
 	var nextTile = ds_grid_get(obj_game.gamefield, xx+1, yy);
-	if (ds_list_find_index(nextTile.input, DIRECTIONS.WEST) != -1){
+	if (nextTile != obj_game.FREE) && (ds_list_find_index(nextTile.input, DIRECTIONS.WEST) != -1){
 		
 		if (nextTile.object_index == obj_WE){
 			with (nextTile){
@@ -52,12 +52,14 @@ if (ds_list_find_index(output, DIRECTIONS.EAST) != -1) && xx < (obj_game.gamefie
 	}
 }
 
-if (ds_list_find_index(output, DIRECTIONS.SOUTH) != -1) && yy < (obj_game.gamefield_height - 1) {
-	var nextTile = ds_grid_get(obj_game.gamefield, xx, yy+1);
-	if (ds_list_find_index(nextTile.input, DIRECTIONS.NORTH) != -1){
-		outputflowCorrect = true;
-		nextTile.is_active = true;
-		nextTile.is_locked = true;
+if (ds_list_find_index(output, DIRECTIONS.SOUTH) != -1) {
+	if (yy < (obj_game.gamefield_height - 1)) {
+		var nextTile = ds_grid_get(obj_game.gamefield, xx, yy+1);
+		if (nextTile != obj_game.FREE) && (ds_list_find_index(nextTile.input, DIRECTIONS.NORTH) != -1){
+			outputflowCorrect = true;
+			nextTile.is_active = true;
+			nextTile.is_locked = true;
+		}
 	}
 }
 

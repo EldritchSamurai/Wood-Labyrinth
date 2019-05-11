@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "44da71a1-8d23-4ee5-9de9-63d4aaf6dfee",
+            "Value": {
+                "id": "c8036c74-3fc1-40be-9e64-977535126f82",
+                "resourcePath": "sounds\\_MGJ_SD_Switch_Tile_3\\_MGJ_SD_Switch_Tile_3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "44f4abf7-cba5-4827-8109-a28d8fbfb6fe",
             "Value": {
                 "id": "dbdf9c17-f283-4883-91fe-338f6b3cfaa9",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "9553d594-5323-48be-827a-7c5a6797d65f",
+            "Value": {
+                "id": "7bf03995-5348-40da-8523-28124ca1f26e",
+                "resourcePath": "sounds\\_MGJ_SD_Switch_Tile_5\\_MGJ_SD_Switch_Tile_5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a020e4c7-b22b-4235-a4ee-a475ae623478",
             "Value": {
                 "id": "17755ae2-8e3e-4f95-a682-c788c3cb0dc1",
@@ -351,6 +367,14 @@
             }
         },
         {
+            "Key": "c09276b0-602f-4a0d-943b-608517bba0e0",
+            "Value": {
+                "id": "6a1d4410-9761-4cce-82a4-8ffd4b943f3f",
+                "resourcePath": "sounds\\_MGJ_SD_Switch_Tile_2\\_MGJ_SD_Switch_Tile_2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c60b3bd7-8932-46ef-b482-2cd0e2c271ba",
             "Value": {
                 "id": "5e688cf8-ced7-455e-80f9-6f4c45313b2f",
@@ -399,11 +423,27 @@
             }
         },
         {
+            "Key": "df99a01c-c5da-4610-9d66-f8f36af2faa7",
+            "Value": {
+                "id": "d0c534e3-6a27-4404-ac52-b9d05a56f843",
+                "resourcePath": "sounds\\_MGJ_SD_Running_Sap_Loop\\_MGJ_SD_Running_Sap_Loop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dfab6c1c-67a2-4233-8e06-cad1512bad9f",
             "Value": {
                 "id": "c34ff245-21e1-4c4f-ad3b-e5647e0a15c2",
                 "resourcePath": "views\\dfab6c1c-67a2-4233-8e06-cad1512bad9f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dfc0ca08-d010-42e9-8b5c-7beebfc1b12c",
+            "Value": {
+                "id": "aa78090c-1bbc-4b79-b73f-3115206b3ba7",
+                "resourcePath": "scripts\\checkIfWon\\checkIfWon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,6 +455,14 @@
             }
         },
         {
+            "Key": "ecd66552-2f50-4e24-bebd-eae74e5ec9d1",
+            "Value": {
+                "id": "7e919131-f548-4c78-8b5d-1a76966fba91",
+                "resourcePath": "sounds\\_MGJ_SD_Switch_Tile_4\\_MGJ_SD_Switch_Tile_4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f2bbe76f-9a5e-482e-9e20-c044f112de8b",
             "Value": {
                 "id": "9b69647f-70e2-40c2-a642-9ec0217e119f",
@@ -423,11 +471,27 @@
             }
         },
         {
+            "Key": "f3ab1263-74cc-4151-a3f8-1bf1d83cbcd5",
+            "Value": {
+                "id": "c4c4743f-fc7c-46f1-b147-13b8fbf7f83c",
+                "resourcePath": "sounds\\_MGJ_Music_Loop_19_5_11\\_MGJ_Music_Loop_19_5_11.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "ea5c883f-e73a-4bcb-b98b-0ee184c10440",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fb4cc703-ee75-4daf-a919-ff162349c332",
+            "Value": {
+                "id": "827c16dd-e2b3-49e3-8170-3742106c11d9",
+                "resourcePath": "sounds\\_MGJ_SD_Switch_Tile_1\\_MGJ_SD_Switch_Tile_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -459,7 +523,8 @@
         "7eed4c96-3255-44c8-8071-8feb0dd61bc8",
         "417503c0-b7ed-4691-bb4c-5a49287e5dd3",
         "46b3c747-214f-404b-80f5-b901ccbc7863",
-        "4b55887f-c1c8-43e7-9bba-c4f87328cdb8"
+        "4b55887f-c1c8-43e7-9bba-c4f87328cdb8",
+        "dfc0ca08-d010-42e9-8b5c-7beebfc1b12c"
     ],
     "tutorial": ""
 }

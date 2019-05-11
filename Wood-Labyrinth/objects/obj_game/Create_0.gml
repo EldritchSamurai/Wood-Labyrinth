@@ -4,6 +4,8 @@
 gamefield_width = 8;
 gamefield_height = 8;
 gamefield = ds_grid_create(gamefield_width,gamefield_height);
+game_over = false;
+game_win = false;
 
 enum TILETYPE {
 	NTOS,
