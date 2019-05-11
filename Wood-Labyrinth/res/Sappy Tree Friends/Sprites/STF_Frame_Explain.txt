@@ -1,0 +1,41 @@
+STF_Tile_Curve_Down-Left 
+Frame 1: Empty
+Frames 2-31: Flow
+Frames 32-33: Fill_Up
+Frames 34-36: Flow_Full
+
+STF_Tile_Curve_Down-Right
+Frame 1: Empty
+Frames 2-31: Flow
+Frames 32-33: Fill_Up
+Frames 34-36: Flow_Full
+
+STF_Tile_Curve_Left_Down
+Frame 1: Empty
+Frames 2-29: Flow
+Frame 30: Fill_Up
+Frames 31-33: Flow_Full
+
+STF_Tile_Curve_Right_Down
+Frame 1: Empty
+Frames 2-29: Flow
+Frame 30: Fill_Up
+Frames 31-33: Flow_Full
+
+STF_Tile_Straight_Down
+Frame 1: Empty
+Frames 2-33: Flow
+Frame 34: Fill_Up
+Frames 35-37: Flow_Full
+
+STF_Tile_Straight_Left-Right
+Frame 1: Empty
+Frames 2-33: Flow
+Frames 34-35: Fill_Up
+Frames 36-38: Flow_Full
+
+STF_Tile_Straight_Right-Left
+Frame 1: Empty
+Frames 2-33: Flow
+Frames 34-35: Fill_Up
+Frames 36-38: Flow_Full

@@ -11,7 +11,7 @@ if is_active {
 		sprite_index = sprite_loop;
 		
 		//workaroung
-		image_speed = 0;
+		image_speed = 0.5;
 		
 		//check in outs
 		var xx = (x-32)/32;
