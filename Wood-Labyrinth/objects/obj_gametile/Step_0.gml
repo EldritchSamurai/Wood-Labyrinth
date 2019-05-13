@@ -1,5 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+if (click_cooldown > 0) click_cooldown --;
+
 if is_active {
 	image_speed = 0.5;
 	

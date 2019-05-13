@@ -15,6 +15,24 @@ enum TILETYPE {
 	X
 }
 
+enum MODE {
+	A,
+	B
+}
+
+global.game_mode = MODE.A;
+
+if (global.game_mode == MODE.B){
+	enum GAMESTATE {
+		FREE,
+		SELECTED
+	}
+	state = GAMESTATE.FREE;
+	
+	active_x = -1 
+	active_y = -1;
+}
+
 FREE = 0;
 
 for (var i = 0; i < gamefield_width; i++){
