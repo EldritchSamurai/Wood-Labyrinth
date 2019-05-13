@@ -16,11 +16,8 @@ WE_tile = false;
 xTo = 0;
 yTo = 0;
 
-if (object_index != obj_NtoS){
-	randomize();
-	var aTile = choose (obj_NtoE, obj_NtoS, obj_NtoW, obj_WtoS, obj_EtoS, obj_WE);
-	if ((x-32)/32 == 0) && ((y-32)/32 == 0)
-		aTile = obj_NtoS;
-	instance_change(aTile, false);
-}
 image_speed = 0;
+
+var xx = (x - 32) / 32;
+var yy = (y - 32) / 32;	
+ds_grid_set(obj_game.gamefield, xx, yy, self);

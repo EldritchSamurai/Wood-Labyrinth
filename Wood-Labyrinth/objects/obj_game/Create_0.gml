@@ -23,10 +23,3 @@ for (var i = 0; i < gamefield_width; i++){
 	}
 }
 
-for (var i = 0; i < instance_number(obj_gametile); i++){
-	var aTile = instance_find(obj_gametile, i);
-	var xx = (aTile.x - 32) / 32;
-	var yy = (aTile.y - 32) / 32;	
-	ds_grid_set(gamefield, xx, yy, aTile);
-}
-
