@@ -7,11 +7,18 @@ enum DIRECTIONS{
 	WEST
 }
 
+enum MODE {
+	A,
+	B
+}
+
 is_active = false;
 is_locked = false;
 input = ds_list_create();
 output = ds_list_create();
 WE_tile = false;
+
+game_mode = MODE.A;
 
 xTo = 0;
 yTo = 0;
