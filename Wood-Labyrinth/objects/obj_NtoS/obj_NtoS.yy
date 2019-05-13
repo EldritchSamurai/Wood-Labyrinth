@@ -5,13 +5,13 @@
     "name": "obj_NtoS",
     "eventList": [
         {
-            "id": "0080bb6c-945d-4f92-8a20-2b606a620932",
+            "id": "4d2889e9-ef55-4919-9724-beccc21fcc3c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "2c60b263-7b24-4d9a-bc8e-18074ea314ba"
         }
     ],

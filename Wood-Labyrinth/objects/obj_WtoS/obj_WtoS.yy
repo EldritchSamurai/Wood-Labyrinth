@@ -5,13 +5,13 @@
     "name": "obj_WtoS",
     "eventList": [
         {
-            "id": "1f18e792-b997-4fae-94be-6aaf33322c5f",
+            "id": "7d7e837a-6428-4ead-bf10-71212e96aa24",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "b95802f4-4a3e-4425-8289-504a34864300"
         }
     ],

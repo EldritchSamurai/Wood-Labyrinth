@@ -5,13 +5,13 @@
     "name": "obj_EtoS",
     "eventList": [
         {
-            "id": "445ef586-8554-4bef-8708-d6de1217c4d4",
+            "id": "f8101b50-2e9d-40fd-8e08-2502b2d3109f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "0de00e68-a580-45bf-a5e5-718f7de02a9f"
         }
     ],

@@ -5,13 +5,13 @@
     "name": "obj_NtoW",
     "eventList": [
         {
-            "id": "85da17be-2070-431d-9b80-c5d04b37d82a",
+            "id": "f0749552-e355-40e4-bbb7-e5af8edb1106",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "cf6f0e8d-38fe-4d83-99eb-b9f61f030734"
         }
     ],
