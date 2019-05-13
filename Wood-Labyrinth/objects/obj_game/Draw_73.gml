@@ -14,4 +14,7 @@ if(game_over) && (!game_win){
 	draw_set_halign(fa_middle);
 	draw_set_valign(fa_middle);
 	draw_text(160,160, "GAME OVER");
+	
+	draw_set_color(c_white);
+	draw_text_transformed(160,180, "-press R to restart-", 0.7, 0.7, 0);
 }
