@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "831fa162-2f64-4d18-89a6-12b3dcbd66e9",
-            "Value": {
-                "id": "c5947ac4-d90b-4141-ab82-018880e1cb58",
-                "resourcePath": "objects\\obj_arrow\\obj_arrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "878ef02d-355f-4f8d-b541-e37ca0dae09c",
             "Value": {
                 "id": "862b4e98-2b62-4621-840a-73b7c1907e07",
