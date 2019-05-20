@@ -1,6 +1,8 @@
 # Wood-Labyrinth
 Our Project from the Game Jam on 2019-05-11 in Dortmund
+  made with Gamemaker Studio 2
 
+Instructions:
 install the .exe to play the game or check out the code.
 
 Goal: 
