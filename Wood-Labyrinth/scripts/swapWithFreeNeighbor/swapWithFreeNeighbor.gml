@@ -6,8 +6,8 @@
 /// 
 
 //shift self
-x += argument2*32;
-y += argument3*32;
+x += argument2*TILE_W;
+y += argument3*TILE_H;
 ds_grid_set(obj_game.gamefield, argument0 + argument2, argument1 + argument3, self);
 
 //shift other

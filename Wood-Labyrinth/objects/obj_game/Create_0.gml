@@ -1,6 +1,11 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
+#macro TILE_W 32
+#macro TILE_H 32
+#macro X_OFFSET 32
+#macro Y_OFFSET 32
+
 gamefield_width = 8;
 gamefield_height = 8;
 gamefield = ds_grid_create(gamefield_width,gamefield_height);

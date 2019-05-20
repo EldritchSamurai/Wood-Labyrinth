@@ -20,6 +20,6 @@ click_cooldown = 0;
 
 image_speed = 0;
 
-var xx = (x - 32) / 32;
-var yy = (y - 32) / 32;	
+var xx = (x - X_OFFSET) / TILE_W;
+var yy = (y - Y_OFFSET) / TILE_H;
 ds_grid_set(obj_game.gamefield, xx, yy, self);

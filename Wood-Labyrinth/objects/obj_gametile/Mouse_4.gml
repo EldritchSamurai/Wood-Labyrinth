@@ -4,8 +4,8 @@ if !is_locked {
 	
 	switch (global.game_mode){
 		case (MODE.A):
-			var xx = (x -32) / 32;
-			var yy = (y -32) /32;
+			var xx = (x - X_OFFSET) / TILE_W;
+			var yy = (y - Y_OFFSET) / TILE_H;
 			checkForFreeNeighbor(xx,yy);
 	
 			if (xTo != 0) || (yTo != 0){
@@ -20,8 +20,8 @@ if !is_locked {
 			switch (obj_game.state) {
 					
 				case (GAMESTATE.FREE):
-					var xx = (x -32) / 32;
-					var yy = (y -32) / 32;
+					var xx = (x - X_OFFSET) / TILE_W;
+					var yy = (y - Y_OFFSET) / TILE_H;
 					selectTile(xx, yy);
 					obj_game.active_x = xx;
 					obj_game.active_y = yy;
@@ -30,8 +30,8 @@ if !is_locked {
 				
 				case (GAMESTATE.SELECTED):
 					if (obj_game.active_x != -1) && (obj_game.active_y != -1){
-						var xx = (x -32) / 32;
-						var yy = (y -32) /32;
+						var xx = (x - X_OFFSET) / TILE_W;
+						var yy = (y - Y_OFFSET) / TILE_H;
 						//if is neighbor -> swap
 						if (isNeighbor(obj_game.active_x, obj_game.active_y, xx, yy)){
 							swapWithNeighbor(obj_game.active_x, obj_game.active_y, xx, yy);

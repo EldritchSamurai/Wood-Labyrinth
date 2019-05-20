@@ -23,7 +23,7 @@ if (ds_list_find_index(output, DIRECTIONS.WEST) != -1) && xx > 0{
 				var index = ds_list_find_index(output, DIRECTIONS.EAST);
 				ds_list_delete(input, index);
 				image_xscale = -1;
-				x += 32;
+				x += TILE_W;
 			}
 		}
 		

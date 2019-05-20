@@ -16,8 +16,8 @@ if is_active {
 		image_speed = 0.5;
 		
 		//check in outs
-		var xx = (x-32)/32;
-		var yy = (y-32)/32;
+		var xx = (x - X_OFFSET) / TILE_W;
+		var yy = (y - Y_OFFSET) / TILE_H;
 		var game_continue = checkOutputflow(xx,yy);
 		var game_win = checkIfWon(xx, yy)
 		
